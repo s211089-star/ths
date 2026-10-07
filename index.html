@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HKDSE 旅游与款待科：住宿酒店产品与分类评级 终极全览讲义与模拟测验</title>
+<style>
+  :root {
+    --primary-color: #1e3a8a;
+    --primary-light: #3b82f6;
+    --accent-color: #059669;
+    --warning-color: #d97706;
+    --dark-bg: #0f172a;
+    --card-bg: #ffffff;
+    --body-bg: #f8fafc;
+    --text-main: #1e293b;
+    --border-color: #e2e8f0;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Microsoft JhengHei", sans-serif;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: var(--body-bg);
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+    color: #ffffff;
+    padding: 3rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  header h1 {
+    margin: 0 0 0.75rem 0;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+  }
+
+  header p {
+    margin: 0;
+    font-size: 1.15rem;
+    color: #93c5fd;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 1120px;
+    margin: 2.5rem auto;
+    padding: 0 1.5rem;
+  }
+
+  .section-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--border-color);
+  }
+
+  h2 {
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--primary-light);
+    padding-bottom: 0.6rem;
+    margin-top: 0;
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  h3 {
+    color: #0f172a;
+    margin-top: 1.8rem;
+    font-size: 1.35rem;
+    border-left: 4px solid var(--primary-light);
+    padding-left: 0.75rem;
+  }
+
+  h4 {
+    color: #334155;
+    font-size: 1.15rem;
+    margin-top: 1.2rem;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 0.25rem 0.65rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 6px;
+    background-color: #dbeafe;
+    color: #1e40af;
+    margin-right: 0.5rem;
+  }
+
+  .badge-warning {
+    background-color: #fef3c7;
+    color: #92400e;
+  }
+
+  .badge-success {
+    background-color: #d1fae5;
+    color: #065f46;
+  }
+
+  .exam-tip {
+    background-color: #fffbeb;
+    border-left: 5px solid var(--warning-color);
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .exam-tip strong {
+    color: #b45309;
+    font-size: 1.05rem;
+  }
+
+  .concept-box {
+    background-color: #f0fdf4;
+    border-left: 5px solid var(--accent-color);
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .concept-box strong {
+    color: #047857;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+    background-color: #ffffff;
+  }
+
+  th, td {
+    border: 1px solid #cbd5e1;
+    padding: 0.85rem 1rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    font-weight: 700;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+
+  ul, ol {
+    padding-left: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 0.6rem;
+  }
+
+  .quiz-card {
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .quiz-card h5 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    color: #0f172a;
+  }
+
+  .quiz-options {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .quiz-options li {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .answer-box {
+    background-color: #eff6ff;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-top: 1rem;
+    border-left: 5px solid #3b82f6;
+  }
+
+  .answer-box strong {
+    color: #1e40af;
+  }
+
+  .marking-scheme {
+    background-color: #f0fdf4;
+    border-left: 5px solid #10b981;
+    padding: 1rem;
+    margin-top: 0.75rem;
+    font-size: 0.92rem;
+  }
+
+  .footer-note {
+    text-align: center;
+    padding: 2rem;
+    color: #64748b;
+    font-size: 0.9rem;
+    border-top: 1px solid #e2e8f0;
+    margin-top: 3rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>HKDSE 旅游与款待科：住宿界别核心课程</h1>
+  <p>【住宿酒店产品】与【酒店分类与评级】完整终极学习讲义 & 考评模拟全套实务特训</p>
+</header>
+
+<div class="container">
+
+  <!-- INTRODUCTION CARD -->
+  <div class="section-card">
+    <h2><span class="badge badge-success">导言</span> 欢迎进入住宿界别的核心世界</h2>
+    <p>在香港中学文凭试（HKDSE）旅游与款待科（THS）中，<strong>“住宿界别（Accommodation Sector）”</strong>占有举足轻重的地位。酒店不仅是提供睡眠场所的建筑物，更是集餐饮、休闲、商务会议与文化体验于一身的复杂服务载体。</p>
+    <p>本讲义专为追求卓越成绩的考生设计，全盘拆解<strong>“住宿酒店产品与服务”</strong>及<strong>“酒店分类与评级系统”</strong>两大核心课题。拆解精准，随附全套高级模拟测试题及评分标准（Marking Scheme），助你在文凭试中一举夺取佳绩！</p>
+  </div>
+
+  <!-- TOPIC 1: HOTEL PRODUCTS AND SERVICES -->
+  <div class="section-card">
+    <h2>第一课：住宿酒店产品与服务 (Hotel Products & Services)</h2>
+    
+    <p>款待业产品与一般实体商品有着根本的差异。酒店产品是一个<strong>复合体（Product Bundle）</strong>，结合了有形的设施（Tangible Amenities）与无形的服务体验（Intangible Service Experience）。</p>
+
+    <h3>1. 款待业产品的核心四大特性 (Four Characteristics of Hospitality Products)</h3>
+    <p>理解这四大特性，是解答所有酒店营运与策略管理问题的基石：</p>
+    <ul>
+      <li><strong>无形性 (Intangibility)：</strong> 顾客在购买前无法触摸、测试或试用酒店服务。顾客买到的不是房间的砖墙，而是一晚优质睡眠的体验与安心感。因此，酒店必须透过高质素的装潢、品牌声誉及专业员工形象来“将无形实体化”。</li>
+      <li><strong>不可储存性 / 过期即逝性 (Perishability)：</strong> 客房的价值具备极强的时间敏感度。例如：若一间客房在当晚未被租出，该晚的潜在房租收益即**永久消失**，绝不可能留到明天补卖。这促使酒店采用“收益管理（Yield Management）”策略。</li>
+      <li><strong>不可分割性 (Inseparability)：</strong> 服务的“生产”与“消费”是同时发生的。当房务员（Housekeeper）提供打扫服务，或前台（Front Desk）办理入住时，宾客就在现场同时接受并消费该服务。员工即是产品的一部分。</li>
+      <li><strong>异质性 / 不稳定性 (Heterogeneity / Variability)：</strong> 服务质素极难达到100%绝对标准化。即使同一间酒店，服务质素也会因员工的情绪、体力、宾客的需求与互动状况而异。酒店需透过 SOP（标准作业程序）与严格培训来维持品质稳定。</li>
+    </ul>
+
+    <div class="concept-box">
+      <strong>核心观念总结：</strong> 酒店卖的不是“床位”，而是“一段无瑕的客务体验与回忆”。
+    </div>
+
+    <h3>2. 核心产品：客房与住宿部门 (Core Product: Rooms Division)</h3>
+    <p>客房收入（Room Revenue）通常占酒店总收入的 50% 至 70%，是利润率最高的业务。</p>
+
+    <h4>(A) 常见客房类型 (Room Types)</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>房型名称 (English Name)</th>
+          <th>特征与空间配置</th>
+          <th>主要目标客源</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>单人房 (Single Room)</strong></td>
+          <td>设有一张单人床，空间较精简。</td>
+          <td>独行旅客、个人商务客。</td>
+        </tr>
+        <tr>
+          <td><strong>双人房 (Double / Twin Room)</strong></td>
+          <td><strong>Double:</strong> 设有一张双人特大/大床 (King/Queen Size)。<br><strong>Twin:</strong> 设有两张独立单人床。</td>
+          <td>情侣、夫妻（Double）；朋友、同事同行（Twin）。</td>
+        </tr>
+        <tr>
+          <td><strong>三人房 / 家庭房 (Triple / Family Room)</strong></td>
+          <td>设有三张单人床，或两张双人床，空间较大。</td>
+          <td>家庭旅客、小型朋友团体。</td>
+        </tr>
+        <tr>
+          <td><strong>套房 (Suite / Junior Suite)</strong></td>
+          <td>起居室（Living Area）与卧室（Bedroom）以墙隔开（Junior Suite 则无实体隔墙但分区明确）。设有高级浴室与独立办公桌。</td>
+          <td>高端商务客、V.I.P.、庆祝特别节日的旅客。</td>
+        </tr>
+        <tr>
+          <td><strong>相连房 (Connecting Rooms)</strong></td>
+          <td>两间独立客房中间设有一道可锁上的内部通道门。</td>
+          <td>带小孩的家庭、需要互相照顾的长者团体。</td>
+        </tr>
+        <tr>
+          <td><strong>相邻房 (Adjoining Rooms)</strong></td>
+          <td>两间客房相邻（隔壁），但中间没有内部通道门。</td>
+          <td>同行但希望保持完全私隐的团体。</td>
+        </tr>
+        <tr>
+          <td><strong>无障碍客房 (Accessible Room)</strong></td>
+          <td>拓宽门框、无障碍浴室（加装扶手、无门槛扶手椅）、低位开关，符合通用设计。</td>
+          <td>残疾人士、行动不便的长者。</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h4>(B) 房价种类与计费模式 (Room Rates & Meal Plans)</h4>
+    <p>酒店针对不同顾客市场，设有弹性的房价架构：</p>
+    <ul>
+      <li><strong>门市价 (Rack Rate)：</strong> 酒店公布的高标牌价（官方原价），鲜少有顾客直接缴付此价格，主要用于确定折扣基准。</li>
+      <li><strong>企业优惠价 (Corporate Rate)：</strong> 签订长期合约的企业员工专享之折扣价。</li>
+      <li><strong>团体价 (Group Rate)：</strong> 针对旅行团或大型会议团体（通常预订10间房以上）提供的批发折扣价。</li>
+      <li><strong>包价 (Package Rate)：</strong> 包含客房 + 餐饮 + 景点门票/Spa等一并出售的套票价格。</li>
+      <li><strong>日间房价 (Day Use Rate)：</strong> 仅于白天租用数小时（不留宿）的价格，常用于机场酒店或短暂休息客源。</li>
+    </ul>
+
+    <p><strong>餐制组合 (Meal Plans)：</strong></p>
+    <ul>
+      <li><strong>EP (European Plan 欧式餐制)：</strong> 仅含客房费用，不含任何餐饮。</li>
+      <li><strong>CP (Continental Plan 欧陆式餐制)：</strong> 含客房及每日“欧陆式早餐”（通常为面包、果酱、咖啡/红茶、果汁）。</li>
+      <li><strong>BP / B&B (Bed and Breakfast 床与早餐)：</strong> 含客房及全套热早餐（Full English Breakfast）。</li>
+      <li><strong>MAP (Modified American Plan 改良美式餐制 / 半包餐 Half Board)：</strong> 含客房、早餐及每日另外一餐（晚餐或午餐）。</li>
+      <li><strong>AP (American Plan 美式餐制 / 全包餐 Full Board)：</strong> 含客房及一日三餐（早、午、晚）。常见于全包式度假村（如 Club Med）。</li>
+    </ul>
+
+    <h4>(C) 房务与前台服务 (Front Office & Housekeeping Services)</h4>
+    <ul>
+      <li><strong>前台接待 (Front Office)：</strong> 办理入住 (Check-in)、退房 (Check-out)、房间分配、帐务结算及处理顾客投诉。</li>
+      <li><strong>礼宾服务 (Concierge Services)：</strong> 灵魂人物为持有“金钥匙（Les Clefs d'Or）”之礼宾员，负责代订餐厅、门票、安排车辆、提供在地旅游咨询及行李寄存。</li>
+      <li><strong>房务管理 (Housekeeping)：</strong> 每日客房清洁、更换床单备品、补给 Minibar，以及提供贴心的<strong>“夜床服务（Turn-down Service）”</strong>（傍晚收拾房间、铺平被角、放置薄荷糖及调暗灯光）。</li>
+    </ul>
+
+    <div class="exam-tip">
+      <strong>DSE 考题陷阱提醒：</strong> 题目常问“夜床服务 (Turn-down service)”属于哪类产品？答案是：这是客房部门提供的<strong>无形附加服务</strong>，旨在提升顾客舒适感与尊荣感！
+    </div>
+
+    <h3>3. 辅助与附加产品 (Supplementary & Ancillary Products)</h3>
+    <p>为追求收益最大化并满足多元需求，现代酒店（特别是全服务酒店）拓展了大量非客房产品：</p>
+    <ul>
+      <li><strong>餐饮服务部门 (Food & Beverage - F&B)：</strong>
+        <ul>
+          <li><strong>全日制餐厅 (All-Day Dining)：</strong> 提供自助早餐、午餐及晚餐，兼顾多国美食。</li>
+          <li><strong>高级精致餐厅 (Fine Dining)：</strong> 如米芝莲星级中菜厅或法式餐厅，强调极致食材与服务体验。</li>
+          <li><strong>行政酒廊 (Executive Lounge)：</strong> 专供行政楼层（Club Level）宾客使用的私人空间，提供免费精致早餐、下午茶及夕阳鸡尾酒（Happy Hour）。</li>
+          <li><strong>宴会与会议餐饮 (Banquet & Catering)：</strong> 承办婚宴、企业年会、大型鸡尾酒会。</li>
+        </ul>
+      </li>
+      <li><strong>会展设施 (MICE Facilities)：</strong> 无柱式大宴会厅 (Ballroom)、多功能会议室 (Function Rooms)、配备最新 AV 视听器材及商务中心 (Business Centre)。</li>
+      <li><strong>康体与水疗设施 (Recreation & Spa)：</strong> 无边际温水游泳池、24小时健身中心、桑拿房（Sauna）、蒸气室及奢华水疗中心 (Spa)。</li>
+      <li><strong>其他附加服务 (Ancillary Services)：</strong> 机场豪华轿车接送 (Limousine service)、代客泊车 (Valet parking)、精品店租户 (Retail shops)、洗衣干洗服务。</li>
+    </ul>
+  </div>
+
+  <!-- TOPIC 2: HOTEL CLASSIFICATION AND RATING SYSTEMS -->
+  <div class="section-card">
+    <h2>第二课：酒店分类与评级系统 (Hotel Classification & Rating Systems)</h2>
+
+    <p>全球酒店数以万计，为了协助消费者的预订决策，并让市场定位清晰，酒店业发展出多维度的分类标准与评级机制。</p>
+
+    <h3>1. 酒店的多维度分类 (Hotel Classification)</h3>
+
+    <h4>(A) 按地理位置与目标市场分类 (By Location & Target Market)</h4>
+    <ul>
+      <li><strong>商务 / 市中心酒店 (Commercial / City Hotels)：</strong> 位于 CBD 商业中心或交通枢纽，主打商务客，强调高速网络、高效前台服务与商务设施。</li>
+      <li><strong>度假酒店 (Resort Hotels)：</strong> 位于风景区（海岛、山区、温泉区），设施极其丰富（游泳池、高尔夫球场、水疗中心），目标客源为休闲放学度假者，顾客停留时间较长。</li>
+      <li><strong>机场酒店 (Airport Hotels)：</strong> 位于机场航站楼内或附近，提供 24 小时免费 Shuttle Bus。目标客源为转机客、机组人员或航班延误旅客，停留时间短（Transient）。</li>
+      <li><strong>公路旅馆 / 汽车旅馆 (Motels / Highway Hotels)：</strong> 位于高速公路沿线，提供充足免费停车位，客房门口直通停车场，设施精简。</li>
+    </ul>
+
+    <h4>(B) 按服务水平分类 (By Level of Service)</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>服务等级</th>
+          <th>设施与服务特征</th>
+          <th>典型代表案例</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>全服务酒店<br>(Full-Service Hotel)</strong></td>
+          <td>提供全面设施：多间餐厅、宴会厅、礼宾部、24小时送餐、客房清洁、康体水疗中心。</td>
+          <td>香港半岛酒店、香港四季酒店、金钟香格里拉。</td>
+        </tr>
+        <tr>
+          <td><strong>有限 / 精选服务酒店<br>(Limited / Select-Service)</strong></td>
+          <td>聚焦高质素住宿体验，削减或不设大型宴会厅及多家餐厅，仅保留简约早餐区及小型健身房。</td>
+          <td>智选假日酒店 (Holiday Inn Express)、宜必思酒店 (Ibis)。</td>
+        </tr>
+        <tr>
+          <td><strong>精品 / 设计酒店<br>(Boutique / Design Hotel)</strong></td>
+          <td>规模通常较小（百间房以下），具备强烈独特设计感、主题风格，极度强调个人化服务。</td>
+          <td>香港问月酒店 (Mira Moon)、The Fleming (芬名酒店)。</td>
+        </tr>
+        <tr>
+          <td><strong>经济型 / 平价酒店<br>(Budget / Economy Hotel)</strong></td>
+          <td>仅提供最基本干净客房、私人浴室与 Wi-Fi，无附加服务，价格亲民。</td>
+          <td>各类连锁平价酒店、青旅。</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h4>(C) 按业权与营运模式分类 (By Ownership & Management)</h4>
+    <ul>
+      <li><strong>独立经营酒店 (Independent Hotels)：</strong> 由业主自行管理运营，不隶属任何连锁品牌。特色鲜明、经营灵活，但缺乏全球预订网络与品牌效应。</li>
+      <li><strong>连锁酒店 (Chain Hotels)：</strong> 隶属于大型酒店集团（如万豪 Marriott、洲际 IHG、希尔顿 Hilton）。享有一致的服务标准、全球忠诚度计划（Loyalty Program）与强大的中央预订系统 (CRS)。</li>
+      <li><strong>管理合约模式 (Management Contract)：</strong> 地产业主（Owner）拥有酒店实体资产，但花费管理费聘请专业酒店管理集团（如希尔顿）来派驻管理团队营运。</li>
+      <li><strong>特许经营模式 (Franchise Agreement)：</strong> 加盟商（业主）向品牌方支付特许权使用费（Royalty Fee），取得品牌商标及系统使用权，但由业主自行负责日常营运。</li>
+      <li><strong>联合加盟 / 转介集团 (Referral Group / Consortia)：</strong> 一群独立酒店联合组成的联盟（如 *The Leading Hotels of the World*），共享市场推广与预订平台，但各自保持经营独立性。</li>
+    </ul>
+
+    <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 2rem 0;">
+
+    <h3>2. 香港官方酒店评级系统 (HKTB Hotel Classification System)</h3>
+
+    <div class="exam-tip">
+      <strong>重中之重！DSE 每年必考核心考点！</strong><br>
+      香港<strong>没有</strong>采用国际民间常见的“一星至五星”官方颁授制度。香港的官方酒店评级是由<strong>香港旅游发展局（HKTB，简称旅发局）</strong>进行评定与维护的。
+    </div>
+
+    <h4>(A) 旅发局评级的真正目的与性质</h4>
+    <p>旅发局实施评级系统的核心目的，是为了<strong>进行内部旅游统计数据分析、行业基准比较及监测香港住宿设施的供求状况</strong>。旅发局**绝不会**向公众宣传或推广个体酒店的具体星级，亦不容许酒店将 HKTB 评级作为商业宣传卖点。</p>
+
+    <h4>(B) 五大评估指标 (5 Criteria)</h4>
+    <p>旅发局会根据以下 5 个关键范畴进行数据搜集，并计算出一个<strong>综合分数（Composite Score）</strong>：</p>
+    <ol>
+      <li><strong>平均房租 (Average Room Rate - ARR)：</strong> 反映酒店产品在市场上的定价能力与价值感。</li>
+      <li><strong>员工与客房比例 (Staff-to-Room Ratio)：</strong> 每间客房分配到的员工数量。比例越高（如 1.5:1 或 2:1），代表服务越精细、人手越充裕。</li>
+      <li><strong>酒店地点 (Location)：</strong> 是否位于核心商业区、主要旅游景点附近或交通枢纽（如中环、尖沙咀）。</li>
+      <li><strong>设施与服务 (Facilities & Services)：</strong> 是否配备多元餐饮、会展设施、泳池、水疗、24小时送餐及礼宾服务等。</li>
+      <li><strong>商务组合 / 客源结构 (Business Mix)：</strong> 酒店接待商务旅客与休闲旅客的比例（商务客比例越高，综合权重分数往往不同）。</li>
+    </ol>
+
+    <h4>(C) 香港四个评级类别 (Four Classification Categories)</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>评级类别 (Category)</th>
+          <th>综合分数范围 (Score)</th>
+          <th>坊间相对应星级</th>
+          <th>特征与香港代表例子</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>甲级高价酒店<br>(High Tariff A)</strong></td>
+          <td><strong>3.00 – 3.99</strong></td>
+          <td>奢华 5 星至 6 星级</td>
+          <td>位于核心黄金地段，提供极高人车比、极致奢华设施与顶级精致餐饮。<br><em>例：香港半岛酒店、香港瑰丽酒店、四季酒店。</em></td>
+        </tr>
+        <tr>
+          <td><strong>乙级高价酒店<br>(High Tariff B)</strong></td>
+          <td><strong>2.00 – 2.99</strong></td>
+          <td>优质 4 星级</td>
+          <td>提供全套或高标准设施，地点优越，服务品质优良，价格适中。<br><em>例：城景国际 (The Cityview)、各区皇冠假日酒店。</em></td>
+        </tr>
+        <tr>
+          <td><strong>中价酒店<br>(Medium Tariff)</strong></td>
+          <td><strong>1.00 – 1.99</strong></td>
+          <td>舒适 3 星级</td>
+          <td>注重高性价比，设施基本干净，提供基础餐饮与舒适住宿。<br><em>例：宜必思香港中上环酒店、各区智选假日酒店。</em></td>
+        </tr>
+        <tr>
+          <td><strong>旅客宾馆<br>(Guesthouses)</strong></td>
+          <td>不适用综合分数<br>(受专门条例规管)</td>
+          <td>1 星 – 2 星级 / 青旅</td>
+          <td>规模小，仅提供最基础住宿，必须领有民政事务总署《旅馆业条例》发出的合法牌照。</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>3. 国际知名第三方评级与指南 (International Rating Systems)</h3>
+    <ul>
+      <li><strong>福布斯旅游指南 (Forbes Travel Guide)：</strong> 采用最严苛的“神秘客 (Incognito Inspectors)”评核机制。其评分体系中，<strong>服务质素占 75%，实体设施占 25%</strong>。评定为“五星”、“四星”或“推荐”。</li>
+      <li><strong>米芝莲指南 (Michelin Guide)：</strong> 除了著名的餐厅星级，近年推行<strong>“米芝莲钥匙（Michelin Key）”</strong>评级，针对全球卓越酒店进行 1 至 3 把钥匙的认证。</li>
+      <li><strong>AAA 钻石评级 (American Automobile Association)：</strong> 北美广泛采用的 1 至 5 钻评级，严格评定酒店装潢与服务。</li>
+    </ul>
+  </div>
+
+  <!-- TOPIC 3: FULL ASSESSMENT SUITE / TEST -->
+  <div class="section-card">
+    <h2>第三课：文凭试实战全真模拟测试 (HKDSE Assessment Suite)</h2>
+    <p>以下测试严格参照 HKDSE 考评局命题趋势编制，包含选择题、结构化短答题及深度个案分析，附有完整参考答案与 Marking Scheme。</p>
+
+    <h3>第一部分：单项选择题 (Multiple Choice Questions) — 每题1分，共10分</h3>
+
+    <div class="quiz-card">
+      <h5>1. 一间酒店在清晨 3:00 仍有 20 间空房未售出，这 20 间房间当晚的潜在收入将无法收回。这最能体现款待业产品的哪项特性？</h5>
+      <ul class="quiz-options">
+        <li>A. 无形性 (Intangibility)</li>
+        <li>B. 不可储存性 (Perishability)</li>
+        <li>C. 不可分割性 (Inseparability)</li>
+        <li>D. 异质性 (Heterogeneity)</li>
+      </ul>
+    </div>
+
+    <div class="quiz-card">
+      <h5>2. 某商务旅客预订了酒店客房，房费已包含每日住宿以及“早餐加晚餐”。请问该旅客使用的是哪种餐制 (Meal Plan)？</h5>
+      <ul class="quiz-options">
+        <li>A. European Plan (EP)</li>
+        <li>B. Continental Plan (CP)</li>
+        <li>C. Modified American Plan (MAP)</li>
+        <li>D. American Plan (AP)</li>
+      </ul>
+    </div>
+
+    <div class="quiz-card">
+      <h5>3. 下列哪项<strong>不属于</strong>香港旅游发展局（HKTB）评定酒店级别的五大指标之一？</h5>
+      <ul class="quiz-options">
+        <li>A. 平均房租 (Average Room Rate)</li>
+        <li>B. 员工与客房比例 (Staff-to-Room Ratio)</li>
+        <li>C. 酒店的建筑总楼面面积 (Total Floor Area)</li>
+        <li>D. 商务组合 (Business Mix)</li>
+      </ul>
+    </div>
+
+    <div class="quiz-card">
+      <h5>4. 关于香港旅发局 (HKTB) 酒店评级系统，下列哪项叙述是<strong>正确</strong>的？</h5>
+      <ul class="quiz-options">
+        <li>A. 评级结果会公开印制成标签，强制贴在酒店大堂门口。</li>
+        <li>B. 评级主要用于旅游统计分析与行业供求监测。</li>
+        <li>C. 综合得分在 1.00 - 1.99 之间的酒店属于“乙级高价酒店”。</li>
+        <li>D. 评级每十年进行一次更新。</li>
+      </ul>
+    </div>
+
+    <div class="quiz-card">
+      <h5>5. 一家国际著名酒店集团与地产投资者签订合约，由集团派遣专业管理团队全面负责酒店经营，而业主则承担所有财务风险并支付管理费。这种营运模式称为：</h5>
+      <ul class="quiz-options">
+        <li>A. 独立经营 (Independent Ownership)</li>
+        <li>B. 特许经营 (Franchise Agreement)</li>
+        <li>C. 管理合约 (Management Contract)</li>
+        <li>D. 联合加盟 (Referral Group)</li>
+      </ul>
+    </div>
+
+    <div class="quiz-card">
+      <h5>6. 房务员在傍晚时段进入客房为宾客拉上窗帘、铺平被角、调暗灯光并放置小礼品，这项服务称为：</h5>
+      <ul class="quiz-options">
+        <li>A. 门市开房服务 (Rack Rate Check-in)</li>
+        <li>B. 夜床服务 (Turn-down Service)</li>
+        <li>C. 礼宾代办服务 (Concierge Service)</li>
+        <li>D. 退房结算服务 (Express Check-out)</li>
+      </ul>
+    </div>
+
+    <div class="quiz-card">
+      <h5>7. 下列哪种酒店最有可能位于主要高速公路出口附近，并以提供免费停车位及快捷入住为主要卖点？</h5>
+      <ul class="quiz-options">
+        <li>A. 机场酒店 (Airport Hotel)</li>
+        <li>B. 度假酒店 (Resort Hotel)</li>
+        <li>C. 汽车旅馆 (Motel)</li>
+        <li>D. 精品酒店 (Boutique Hotel)</li>
+      </ul>
+    </div>
+
+    <div class="quiz-card">
+      <h5>8. 若一间酒店的 HKTB 综合得分为 3.45，它在旅发局的分类中属于哪一级别？</h5>
+      <ul class="quiz-options">
+        <li>A. 甲级高价酒店 (High Tariff A)</li>
+        <li>B. 乙级高价酒店 (High Tariff B)</li>
+        <li>C. 中价酒店 (Medium Tariff)</li>
+        <li>D. 旅客宾馆 (Guesthouse)</li>
+      </ul>
+    </div>
+
+    <div class="quiz-card">
+      <h5>9. 福布斯旅游指南 (Forbes Travel Guide) 在进行酒店星级评核时，其评分比重最高的是：</h5>
+      <ul class="quiz-options">
+        <li>A. 建筑硬件设施（占 75%）</li>
+        <li>B. 服务质素（占 75%）</li>
+        <li>C. 酒店地理位置（占 50%）</li>
+        <li>D. 餐饮美味程度（占 60%）</li>
+      </ul>
+    </div>
+
+    <div class="quiz-card">
+      <h5>10. 两间客房中间设有一道可由两边分别解锁的内门，非常适合家庭旅客入住。这种房型称为：</h5>
+      <ul class="quiz-options">
+        <li>A. 相邻房 (Adjoining Rooms)</li>
+        <li>B. 相连房 (Connecting Rooms)</li>
+        <li>C. 行政套房 (Executive Suite)</li>
+        <li>D. 双人双床房 (Twin Room)</li>
+      </ul>
+    </div>
+
+    <div class="answer-box">
+      <h4>选择题答案与解说 (MC Answer Key)</h4>
+      <ol>
+        <li><strong>B</strong> — 客房未卖出即永久失去收入，属典型的“不可储存性 (Perishability)”。</li>
+        <li><strong>C</strong> — 早餐 + 晚餐（或午餐）称为半包餐，即 Modified American Plan (MAP)。</li>
+        <li><strong>C</strong> — HKTB 五大指标为：平均房租、员工与客房比例、地点、设施与服务、商务组合。不包括建筑总楼面面积。</li>
+        <li><strong>B</strong> — HKTB 评级主要供内部统计与行业监测，不作商业推广标签。</li>
+        <li><strong>C</strong> — 业主出资出资产，集团派团队营运并收管理费，属“管理合约 (Management Contract)”。</li>
+        <li><strong>B</strong> — 傍晚整理客房的贴心服务称为“夜床服务 (Turn-down Service)”。</li>
+        <li><strong>C</strong> — 汽车旅馆 (Motel) 主要服务公路自驾旅客。</li>
+        <li><strong>A</strong> — 3.00 至 3.99 分属于“甲级高价酒店 (High Tariff A)”。</li>
+        <li><strong>B</strong> — 福布斯评分中，服务质素占 75%，设施占 25%。</li>
+        <li><strong>B</strong> — 中间有内门相通的房型为“相连房 (Connecting Rooms)”。</li>
+      </ol>
+    </div>
+
+    <hr style="border: none; border-top: 1px solid #cbd5e1; margin: 2.5rem 0;">
+
+    <h3>第二部分：结构化短答题 (Structured Questions) — 共 20 分</h3>
+
+    <h4>问题一（8分）：酒店产品特性与营运策略</h4>
+    <p>“不可储存性（Perishability）”是酒店住宿产品的核心特征之一。</p>
+    <p>(a) 试解释“不可储存性”对酒店营运带来的财务风险。（2分）</p>
+    <p>(b) 针对上述特性，酒店管理层通常会采用“收益管理（Yield Management）”策略。试举出酒店在<strong>非旺季（Low Season）</strong>与<strong>淡旺季转换期</strong>可采用的<strong>三项</strong>具体定价或推广策略，并简述其运作方式。（6分）</p>
+
+    <div class="answer-box">
+      <strong>问题一 Marking Scheme 评分参考：</strong>
+      <div class="marking-scheme">
+        <p><strong>(a) 财务风险（2分）：</strong><br>
+        * 客房存货具时间限制，若当日未售出，该晚的潜在房租收益将**永久损失**（1分）。<br>
+        * 然而酒店的固定成本（如折旧、楼宇供款、基本员工人手薪金）保持不变，导致边际利润迅速受压（1分）。</p>
+
+        <p><strong>(b) 收益管理策略（三项，每项2分，共6分）：</strong><br>
+        1. <strong>包价策略 (Package Rates / Staycation)：</strong> 将客房与餐饮消费券、Spa 或景点门票捆绑销售，以维持房价表面不变的同时增加产品吸引力。（2分）<br>
+        2. <strong>动态折扣定价 (Dynamic Discount Pricing / Advance Purchase)：</strong> 提供早鸟优惠（Early Bird）或不退款优惠价，吸引预算敏感型旅客提前预订。（2分）<br>
+        3. <strong>刺激 MICE 及团体客源 (Group & Event Promotions)：</strong> 向企业或会展主办方提供较低的团体折扣价 (Group Rate)，以批量预订填补淡季空置率。（2分）
+        <em>（其他合理答案如：Minimum Length of Stay 限制、与 OTA 合作独家促销等亦可酌情给分）</em></p>
+      </div>
+    </div>
+
+    <h4>问题二（12分）：香港 HKTB 评级系统深度分析</h4>
+    <p>一家部位于湾仔的连锁酒店，目前在香港旅发局（HKTB）评级中被列为“乙级高价酒店（High Tariff B）”。业主计划投入资金进行提升，目标是冲击“甲级高价酒店（High Tariff A）”。</p>
+    <p>(a) 试列出 HKTB 评级系统中的<strong>四个</strong>评估指标，并说明该指标如何影响酒店的综合得分。（8分）</p>
+    <p>(b) 试指出 HKTB 评级系统与国际商业星级评级（如 Booking.com 平台星级）在<strong>目的及发布对象</strong>上的<strong>两项</strong>主要分别。（4分）</p>
+
+    <div class="answer-box">
+      <strong>问题二 Marking Scheme 评分参考：</strong>
+      <div class="marking-scheme">
+        <p><strong>(a) HKTB 四个指标及影响（任选四项，每项2分，共8分）：</strong><br>
+        1. <strong>平均房租 (ARR)：</strong> 房租越高，反映市场价值认可度越高，综合得分越高。（2分）<br>
+        2. <strong>员工与客房比例：</strong> 人车比越高（每间房分配更多员工），代表能提供更精细个性化服务，得分越高。（2分）<br>
+        3. <strong>设施与服务：</strong> 提供越丰富的附设设施（如米芝莲级餐厅、大宴会厅、Spa、24小时 Concierge），得分越高。（2分）<br>
+        4. <strong>商务组合 (Business Mix)：</strong> 接待较高消费能力的高端商务客或 V.I.P. 比例越高，评级分数相应提高。（2分）<br>
+        <em>（若写“地点 Location”：地位于核心商业区/黄金地段得分较高，亦可给2分）</em></p>
+
+        <p><strong>(b) HKTB 与商业星级的分别（每项2分，共4分）：</strong><br>
+        1. <strong>目的不同：</strong> HKTB 评级旨在进行政府及业界内部统计分析与设施供求监测（1分）；而商业星级旨在向消费者提供购物指引与促销（1分）。<br>
+        2. <strong>发布对象不同：</strong> HKTB 不向大众宣传或许可酒店作商业星级宣传（1分）；商业星级则公开发布于网站，直接供大众预订决策（1分）。</p>
+      </div>
+    </div>
+
+    <hr style="border: none; border-top: 1px solid #cbd5e1; margin: 2.5rem 0;">
+
+    <h3>第三部分：实务情境个案分析题 (Case Study Essay) — 15 分</h3>
+
+    <p><strong>背景资料：</strong><br>
+    “维港明珠酒店”是一家位于香港九龙核心区的的独立经营酒店，拥有 300 间客房。酒店開業已达 15 年，以往主要接待低价内地旅行团及短途平价观光客。近年来，由于客源结构转变及设备老化，酒店的平均房租（ARR）及入住率持续下跌。</p>
+    <p>新任总经理建议将酒店定位重新调整为<strong>“高档精品商务酒店 (Luxury Boutique Business Hotel)”</strong>，并全面改造其产品与服务组合。</p>
+
+    <p><strong>题目要求：</strong><br>
+    作为酒店管理顾问，请撰写一份建议报告，为该酒店提供以下分析：</p>
+    <ol>
+      <li><strong>客房与实体产品改动（5分）：</strong> 建议<strong>两项</strong>客房装修或设施升级方案，并解释其如何吸引高消费商务客。</li>
+      <li><strong>无形服务与附加产品拓展（5分）：</strong> 建议<strong>两项</strong>新增的服务或附设设施，以提升宾客体验。</li>
+      <li><strong>评级影响评估（5分）：</strong> 分析上述转型策略将如何显著提升该酒店在香港旅发局（HKTB）评级中的五大指标表现。</li>
+    </ol>
+
+    <div class="answer-box">
+      <strong>个案分析题 满分范文与 Marking Scheme 指引：</strong>
+      <div class="marking-scheme">
+        <p><strong>1. 客房与实体产品改动 (5分)：</strong><br>
+        * <strong>建议一：将部分标准房打通改建为“行政套房 (Executive Suites)”及配置高效工作区。</strong> 配备人体工学椅、多功能国际插座、高速 Wi-Fi 及智能客房控制系统，满足商务客办公与奢华休憩的需求。（2.5分）<br>
+        * <strong>建议二：提升客房用品与床品质素（High-thread-count Linen）。</strong> 引入国际高端品牌沐浴备品（如 Diptyque/Le Labo）及高质量隔音设施，确保顾客获得无瑕睡眠体验，强化品质感。（2.5分）</p>
+
+        <p><strong>2. 无形服务与附加产品拓展 (5分)：</strong><br>
+        * <strong>建议一：增设“行政酒廊 (Executive Lounge)”并提供专属 Check-in 及 Concierge 服务。</strong> 为商务宾客提供私人会议空间、免费精致早餐及傍晚鸡尾酒，并由持有“金钥匙”的礼宾员提供个性化行程与秘书支援。（2.5分）<br>
+        * <strong>建议二：提供 24 小时客房送餐 (In-room Dining) 及快捷洗衣/干洗服务。</strong> 照顾商务旅客因时差或忙碌会议而产生的低频次/不定期餐饮与商务正装穿着需求。（2.5分）</p>
+
+        <p><strong>3. 对 HKTB 评级五大指标之提升分析 (5分)：</strong><br>
+        * <strong>平均房租 (ARR)：</strong> 转型为精品高档酒店后，客房单价可大幅提高，直接提升 ARR 得分。（1分）<br>
+        * <strong>员工与客房比例 (Staff-to-Room Ratio)：</strong> 增加行政酒廊专属员工、金钥匙礼宾员及 24小时服务团队，使人车比显著提升。（1分）<br>
+        * <strong>设施与服务 (Facilities & Services)：</strong> 新增行政酒廊、高级商务中心及顶级备品，完善了酒店的总体现金流与服务范畴。（1分）<br>
+        * <strong>商务组合 (Business Mix)：</strong> 成功将客源由低价旅行团转变高消费额的商务散客及高端 V.I.P.，优化了客源结构。（1分）<br>
+        * <strong>总结：</strong> 五大指标中有四项获得实质提升，将推动酒店的综合得分上升，有机会由中价或乙级高价跨越至更高的评级类别。（1分）</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="footer-note">
+  HKDSE 旅游与款待科 (THS) 专属学习讲义 | 祝各位考生金榜题名，夺取 5** 佳绩！
+</div>
+
+</body>
+</html>
